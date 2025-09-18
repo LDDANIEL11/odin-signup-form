@@ -26,13 +26,13 @@
           <fieldset>
             <legend>Lets Do This !</legend>
             <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="John" />
+            <input type="text" id="first-name" placeholder="John" required />
 
             <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" placeholder="Doe" />
+            <input type="text" id="last-name" placeholder="Doe" required />
           </fieldset>
           <fieldset>
-            <label for="email">Email</label>
+            <label for="email">Email (optional)</label>
             <input type="email" id="email" placeholder="JohnDoe@gmail.com" />
 
             <label for="ph-num">Phone Number</label>
@@ -42,14 +42,25 @@
               minlength="11"
               maxlength="11"
               placeholder="09876543210"
+              required
             />
           </fieldset>
           <fieldset>
             <label for="password">Password</label>
-            <input type="password" id="password" placeholder="JOHNdoe12345" />
+            <input
+              type="password"
+              id="password"
+              placeholder="JOHNdoe12345"
+              required
+            />
 
             <label for="confirm">Confirm Password</label>
-            <input type="password" id="confirm" placeholder="JOHNdoe12345" />
+            <input
+              type="password"
+              id="confirm"
+              placeholder="JOHNdoe12345"
+              required
+            />
           </fieldset>
         </form>
       </div>
