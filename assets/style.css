@@ -11,11 +11,14 @@
 body {
   display: flex;
   align-items: center;
+  background-color: rgb(81, 27, 27);
+  margin: 0;
+  padding: 0;
 }
 
 .bg-img img {
-  height: 100vh;
-  width: 33vw;
+  height: 770px;
+  width: 550px;
 }
 
 .odin {
@@ -23,13 +26,12 @@ body {
   position: absolute;
   z-index: 10;
   margin-top: 27vh;
-
   backdrop-filter: blur(4px);
   background-color: rgba(0, 0, 0, 0.556);
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 8.75%;
-  padding-left: 12%;
+  padding-right: 175.5px;
+  padding-left: 184.5px;
 }
 
 .odin img {
@@ -43,4 +45,65 @@ body {
   font-family: NorseBold;
   text-align: center;
   line-height: 100px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.text {
+  margin-bottom: 175px;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: NorseBold;
+}
+
+.form {
+  padding: 30px;
+  background-color: rgb(253, 234, 234);
+  border-radius: 8px;
+  display: flex;
+}
+
+legend {
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: NorseBold;
+}
+
+label {
+  font-family: NorseBold;
+}
+
+.section {
+  display: flex;
+  padding: 4px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
+}
+
+input {
+  border-radius: 4px;
+  border: 3px solid rgb(202, 190, 190);
+  padding: 5px 20px 5px 0px;
+}
+
+input:valid {
+  border-color: rgb(9, 78, 9);
+}
+
+input:invalid {
+  border-color: rgb(133, 19, 19);
+}
+
+.footer {
+  padding-bottom: 225px;
 }
