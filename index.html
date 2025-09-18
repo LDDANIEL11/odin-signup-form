@@ -17,55 +17,67 @@
     <div class="form-section">
       <div class="text">
         This is not a real login page , its a project that odin courses wanted
-        us to learn and do , this page was created by
-        <a
-          href="https://github.com/LDDANIEL11"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Me</a
-        >
+        us to learn and do ,
+        <p>
+          this page was created by
+          <a
+            href="https://github.com/LDDANIEL11"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Me</a
+          >
+        </p>
       </div>
       <div class="form">
         <form action="|">
-          <fieldset>
-            <legend>Lets Do This !</legend>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="John" required />
-
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" placeholder="Doe" required />
-          </fieldset>
-          <fieldset>
-            <label for="email">Email (optional)</label>
-            <input type="email" id="email" placeholder="JohnDoe@gmail.com" />
-
-            <label for="ph-num">Phone Number</label>
-            <input
-              type="number"
-              id="ph-num"
-              minlength="11"
-              maxlength="11"
-              placeholder="09876543210"
-              required
-            />
-          </fieldset>
-          <fieldset>
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="JOHNdoe12345"
-              required
-            />
-
-            <label for="confirm">Confirm Password</label>
-            <input
-              type="password"
-              id="confirm"
-              placeholder="JOHNdoe12345"
-              required
-            />
-          </fieldset>
+          <legend>Lets Do This !</legend>
+          <div class="section">
+            <div class="field">
+              <label for="first-name">* First Name</label>
+              <input type="text" id="first-name" placeholder="John" required />
+            </div>
+            <div class="field">
+              <label for="last-name">* Last Name</label>
+              <input type="text" id="last-name" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="section">
+            <div class="field">
+              <label for="email">Email (optional)</label>
+              <input type="email" id="email" placeholder="JohnDoe@gmail.com" />
+            </div>
+            <div class="field">
+              <label for="ph-num">* Phone Number</label>
+              <input
+                type="number"
+                id="ph-num"
+                minlength="11"
+                maxlength="11"
+                placeholder="09876543210"
+                required
+              />
+            </div>
+          </div>
+          <div class="section">
+            <div class="field">
+              <label for="password">* Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="JOHNdoe12345"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="confirm">* Confirm Password</label>
+              <input
+                type="password"
+                id="confirm"
+                placeholder="JOHNdoe12345"
+                required
+              />
+            </div>
+          </div>
         </form>
       </div>
       <div class="footer">
