@@ -1,0 +1,46 @@
+@font-face {
+  font-family: NorseBold;
+  src: url("Norse-Bold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.bg-img img {
+  height: 100vh;
+  width: 33vw;
+}
+
+.odin {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  margin-top: 27vh;
+
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.556);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8.75%;
+  padding-left: 12%;
+}
+
+.odin img {
+  width: 75px;
+  height: 100px;
+}
+
+.odin p {
+  font-size: 76px;
+  color: white;
+  font-family: NorseBold;
+  text-align: center;
+  line-height: 100px;
+}
