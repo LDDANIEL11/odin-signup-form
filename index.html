@@ -34,17 +34,35 @@
           <div class="section">
             <div class="field">
               <label for="first-name">* First Name</label>
-              <input type="text" id="first-name" placeholder="John" required />
+              <input
+                type="text"
+                id="first-name"
+                placeholder="John"
+                required
+                title="enter ur first name"
+                data-help="¿is ur name a barcode?"
+              />
             </div>
             <div class="field">
               <label for="last-name">* Last Name</label>
-              <input type="text" id="last-name" placeholder="Doe" required />
+              <input
+                type="text"
+                id="last-name"
+                placeholder="Doe"
+                required
+                data-help="enter your last name"
+              />
             </div>
           </div>
           <div class="section">
             <div class="field">
               <label for="email">Email (optional)</label>
-              <input type="email" id="email" placeholder="JohnDoe@gmail.com" />
+              <input
+                type="email"
+                id="email"
+                placeholder="JohnDoe@gmail.com"
+                data-help="Format email@email.com"
+              />
             </div>
             <div class="field">
               <label for="ph-num">* Phone Number</label>
@@ -55,6 +73,8 @@
                 maxlength="11"
                 placeholder="09876543210"
                 required
+                title="enter ur phone number"
+                data-help="should start with +(country code)"
               />
             </div>
           </div>
@@ -66,6 +86,7 @@
                 id="password"
                 placeholder="JOHNdoe12345"
                 required
+                title="enter ur password"
               />
             </div>
             <div class="field">
@@ -75,17 +96,18 @@
                 id="confirm"
                 placeholder="JOHNdoe12345"
                 required
+                title="confirm ur password!"
               />
+            </div>
+          </div>
+          <div class="footer">
+            <div class="btn">
+              <button type="submit">Create Account</button>
             </div>
           </div>
         </form>
       </div>
-      <div class="footer">
-        <div class="btn">
-          <button type="submit">Create Account</button>
-        </div>
-        <span>Already Have An Account? <a href="|">Log in</a></span>
-      </div>
+      <span>Already Have An Account? <a href="|">Log in</a></span>
     </div>
   </body>
 </html>
