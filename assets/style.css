@@ -77,7 +77,8 @@ a:active {
 
 .form {
   padding: 30px;
-  padding-right: 435px;
+  padding-right: 450px;
+  margin-bottom: 25px;
   background-color: rgb(253, 234, 234);
   border-radius: 8px;
   display: flex;
@@ -127,7 +128,6 @@ input:focus {
 }
 
 .footer {
-  padding-bottom: 190px;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -152,9 +152,10 @@ input:focus {
   background-color: rgb(43, 71, 72);
 }
 
-.footer span {
+span {
   margin-left: 15px;
   font-size: 26px;
   font-weight: 900;
   font-family: NorseBold;
+  margin-bottom: 50px;
 }
